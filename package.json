@@ -1,0 +1,30 @@
+{
+  "name": "@42mk/rollup-plugin-kavadarka",
+  "version": "0.0.3",
+  "private": false,
+  "description": "Најдобриот дијалект за ТајпСкрипт",
+  "repository": "https://github.com/42dotmk/kavadarka",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "exports": {
+    "types": "./types/index.d.ts",
+    "import": "./dist/index.js",
+    "default": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ilija Boshkov",
+  "license": "MIT",
+  "dependencies": {
+    "@rollup/pluginutils": "^5.1.0"
+  },
+  "peerDependencies": {
+    "tslib": "*",
+    "typescript": ">4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.2"
+  }
+}
